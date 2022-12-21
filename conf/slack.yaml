@@ -9,9 +9,9 @@ DefaultChannels: [ "general", "random" ]
 UserRoster:
   - UserName: josh
     UserID: U2X690KD0
-  # - UserName: floyd
-  #   UserID: U138KTVCL
-  #   BotUser: true
+  - UserName: cleatus
+    UserID: U04FH18UD1A
+    BotUser: true
         
 {{ $defaultjobchannel := "bot-testing" }}
 DefaultJobChannel: {{ env "GOPHER_JOBCHANNEL" | default $defaultjobchannel }}
